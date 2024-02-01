@@ -1,3 +1,7 @@
+<script>
+    open("https://doorscoolscripts.github.io/popupchecker/")
+</script>
+
 <html>
     <head>
         <title>INF Wordle</title>
@@ -7,6 +11,7 @@
         <link rel="stylesheet" href="wordle.css">
         <script src="wordle.js"></script>
     </head>
+
 
     <body>
         <h1 id="title">INF Wordle By Dino</h1>
@@ -27,3 +32,20 @@ function myFunction() {
         <input type="button" value="Get New Word" onclick="window.location.reload(); alert('You Now Have A Different Word')">
     </body>
 </html>
+
+
+    <script>
+        document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    var isEscape = false;
+    if ("key" in evt) {
+        isEscape = (evt.key === "Escape" || evt.key === "Esc");
+    } else {
+        isEscape = (evt.keyCode === 27);
+    }
+    if (isEscape) {
+        open("https://clever.com/in/bossier/student/portal")
+        const myTimeout = setTimeout(close(), 1000)
+    }
+};
+    </script>
